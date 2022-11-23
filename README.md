@@ -18,10 +18,12 @@ echo 'export DOTNET_ROOT=/usr/bin/dotnet' >> ~/.bashrc
 echo 'export PATH=$PATH:/usr/bin/dotnet' >> ~/.bashrc
 ```
 
-### Publish:
+### Publish x64:
 ```
 dotnet publish -c Release -r linux-x64
 ```
+### Publish arm:
 ```
 dotnet publish -c Release -r linux-arm
 ```
+
